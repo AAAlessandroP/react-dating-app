@@ -26,7 +26,6 @@ class Menu extends Component {
   async componentDidMount() {//chiamato prima di render
     this.setState({ me: await $.get("http://localhost:3000/api/me") });
   }
-
   render() {
     const variants = {
       variantA: { scale: 0.01 },
