@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.menu{
+  background-color: aquamarine;
+  padding: 5px;
+  z-index: 1;
+  position: relative;
+}
+.menu button{
+  background-color: darkolivegreen;
+  margin: 5px 20px;
+
+}
+.menu button a{
+  color: rgb(44, 54, 25);
+}
